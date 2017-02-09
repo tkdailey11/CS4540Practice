@@ -1,0 +1,26 @@
+# == Schema Information
+#
+# Table name: users
+#
+#  id                :integer          not null, primary key
+#  first_name        :string
+#  last_name         :string
+#  age               :integer
+#  in_a_relationship :boolean
+#  created_at        :datetime         not null
+#  updated_at        :datetime         not null
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  first_name: MyString
+  last_name: MyString
+  age: 1
+  in_a_relationship: false
+
+two:
+  first_name: MyString
+  last_name: MyString
+  age: 1
+  in_a_relationship: false
